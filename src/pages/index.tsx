@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sophonify - Empower everything with AI</title>
+        <title>智子光年 Sophonify - Empower everything with AI</title>
         <meta name="description" content="Empower everything with AI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#19161a] to-[#0b0b0b]">
+      <main className="flex h-screen flex-col items-center justify-center bg-gradient-to-b from-[#19161a] to-[#0b0b0b]">
         <div className="container flex flex-1 flex-col items-center justify-center gap-16 px-4 py-16 ">
           <div className="flex flex-col items-center space-y-6">
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-100 sm:text-[5rem]">
@@ -47,7 +47,7 @@ export default function Home() {
           href="http://beian.miit.gov.cn/"
           className="p-4 text-xs text-[#666666]"
         >
-          苏ICP备2023031059号
+          苏州智子光年科技有限公司 @苏ICP备2023031059号
         </a>
       </main>
     </>
