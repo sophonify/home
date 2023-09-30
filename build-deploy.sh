@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # 定义相关参数
-REPO_URL="https://github.com/sophonify/home.git"
 IMAGE_NAME="sophonifyhome"
 CONTAINER_NAME="sophonifycontainer"
 
 # 从 Github pull 代码
 echo "正在从 Github 拉取代码..."
-git pull $REPO_URL
+git pull origin main
 
 # 检查上一条命令是否执行成功
 if [ $? -ne 0 ]; then
